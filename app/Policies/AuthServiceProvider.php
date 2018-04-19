@@ -1,9 +1,7 @@
 <?php
 
 namespace App\Providers;
-.
-,
-.
+ 
 class AuthServiceProvider extends ServiceProvider
 {
     /**
@@ -15,7 +13,5 @@ class AuthServiceProvider extends ServiceProvider
         'App\Model' => 'App\Policies\ModelPolicy',
         \App\Models\User::class  => \App\Policies\UserPolicy::class,
     ];
-    .
-    .
-    .
+ 
 }
