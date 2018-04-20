@@ -99,7 +99,7 @@ class UsersController extends Controller
         $view = 'emails.confirm';
         $data = compact('user');
         $to = $user->email;
-        $subject = "感谢注册 Sample 应用！请确认你的邮箱。";
+        $subject = "感谢注册 Babyang 应用！请确认你的邮箱。";
 
         Mail::send($view, $data, function ($message) use ($to, $subject) {
             $message->to($to)->subject($subject);
