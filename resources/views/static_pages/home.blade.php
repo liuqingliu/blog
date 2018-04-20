@@ -21,7 +21,7 @@
     </div>
   @else
     <div class="jumbotron">
-      <h1>Hello Laravel</h1>
+      <h1>Hello Guys</h1>
       <p class="lead">
         你现在所看到的是 <a href="http://www.babyang.top">Babyang</a> 的项目主页。
       </p>
